@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment GateWay</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class = "container">
+		<form name="myForm">
+		<!-- FIrst Block-->
+			<span class="heading">Step 1: Your details</span>
+			<div class = "one">
+				
+				<div class="name" style="margin-top: 10px">
+					<span class="placeholder">Name </span><input class="field" type="text" name = "name" style="border: 2px solid white;
+    border-radius: 3px">	
+				</div>
+			
+				<div class="email">
+					<span class="placeholder">Email</span><input type="text" id = "email" style="border: 2px solid white; border-radius: 3px">
+				</div>
+				<div class="phone" style="margin-bottom: 10px">
+					<span class="placeholder">Phone </span><input type="text" id = "phone" style="border: 2px solid white;
+    border-radius: 3px">
+				</div>
+			</div>	
+			<!-- Second Block-->
+			<span class="heading">Step 2: Delivery address</span>
+			<div class = "one">
+				
+				<div class="name" >
+					<span class="placeholder">Address </span><input class="field" type="text-area" name = "address" style="border: 2px solid white;
+    border-radius: 3px">	
+				</div>
+			
+				<div class="email">
+					<span class="placeholder">Post code</span><input type="text" id = "postcode" style="border: 2px solid white; border-radius: 3px">
+				</div>
+				<div class="phone">
+					<span class="placeholder">Country </span><input type="text" id = "country" style="border: 2px solid white;
+    border-radius: 3px">
+				</div>
+			</div>	
+			
+				<!-- Third Block-->
+				<span class="heading">Step 3: Card details</span>
+			<div class = "one">
+				
+				<div class="name" >
+					<span class="placeholder" style=" display: block; border-bottom-width: 10px;margin-bottom: 15px;">Card type </span>
+    				<input type="radio" value = "cardtype" class="input"><img src="#">Visa
+							<input type="radio" value = "cardtype" class="input"><img src="#">AmEx
+							<input type="radio" value = "cardtype" class="input"><img src="#">Mastercard
+				</div>
+			
+				<div class="email">
+					<span class="placeholder">Post code</span><input type="text" id = "postcode" style="border: 2px solid white; border-radius: 3px">
+				</div>
+				<div class="email">
+					<span class="placeholder">Country </span><input type="text" id = "country" style="border: 2px solid white;
+    border-radius: 3px">
+				</div>
+			</div>	
+			<div class="email">
+					<span class="placeholder">Card number </span><input type="text" name = "cno" style="border: 2px solid white;
+    border-radius: 3px">
+				</div>
+			</div>
+			<div class="phone" style="margin-left:467px">
+					<span class="placeholder">Security code </span><input type="text" id = "Security code" style="border: 2px solid white;
+    border-radius: 3px">
+				</div>
+			</div>	
+			<button type="button" class="btn" onclick="validateForm()"> BUY IT!</button>	
+			
+		</form>
+		
+	</div>
+
+</body>
+</html>

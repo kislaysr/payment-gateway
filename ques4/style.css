@@ -1,0 +1,40 @@
+img{
+	height: 200px;
+	width: 200px;
+	display: block;
+	border: 2px solid black;
+}
+.container{
+	margin: auto;
+	padding:0;
+	
+}
+.top{
+
+	    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-top-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.top img{
+	height: 450px;
+	width: 500px;
+}
+.bottom{
+	margin-left: 340px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border-right-width: 40px;
+    padding-right: 40px;
+    float: left;
+    display: -webkit-inline-box;
+}
+.left{
+	height: 200px;
+	width: 200px;
+
+}
